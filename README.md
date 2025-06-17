@@ -161,5 +161,49 @@ Each component will be designed with reusability and accessibility in mind to ma
 
 ---
 
-> **Next Step:** Clone the repo, create a feature branch, and start building your first component!  
-> Happy coding 🚀
+## Team Roles
+
+A successful software project depends on well-defined team roles. Each team member brings unique expertise to ensure smooth development, delivery, and maintenance of the product.
+
+### Backend Developer
+- Designs and implements server-side logic and APIs.
+- Ensures secure communication between the client and server.
+- Integrates third-party services and handles authentication.
+
+### Frontend Developer
+- Builds responsive and accessible UI components using technologies like React.
+- Connects the frontend with backend APIs.
+- Ensures design fidelity with mockups and responsiveness across devices.
+
+### Database Administrator (DBA)
+- Designs and maintains the project’s database schema.
+- Optimizes queries and ensures data consistency, integrity, and security.
+- Monitors performance and handles backups and scaling.
+
+### UI/UX Designer
+- Creates wireframes, high-fidelity mockups, and interaction flows.
+- Defines visual style (color, typography) and user experience strategy.
+- Ensures the application is intuitive, accessible, and visually appealing.
+
+### QA Engineer / Tester
+- Writes and executes manual and automated tests.
+- Verifies that all features work as expected and are bug-free.
+- Provides feedback on usability and performance issues.
+
+### DevOps Engineer
+- Sets up and manages deployment pipelines (CI/CD).
+- Monitors system performance, uptime, and error tracking.
+- Manages hosting environments and handles infrastructure as code.
+
+### Scrum Master
+- Facilitates agile ceremonies (standups, retrospectives, sprint planning).
+- Removes team blockers and ensures agile principles are followed.
+- Encourages continuous improvement in team workflows.
+
+### Product Owner
+- Defines the product vision and roadmap.
+- Gathers requirements from stakeholders and prioritizes features.
+- Ensures the final product aligns with business goals and user needs.
+
+> Clear role definitions ensure accountability, improve collaboration, and increase the project’s chances of success.
+
