@@ -85,3 +85,35 @@ A user-friendly design is essential in a booking system because it:
 - **Increases conversion rates** by guiding users with intuitive interactions and minimal distractions.
 - **Improves customer satisfaction** with a seamless, responsive, and visually appealing experience.
 - **Encourages return usage and referrals** due to a trustworthy and professional interface.
+
+---
+
+### Figma Design Specifications
+
+#### 🎨 Color Styles
+- **Primary Color**: `#FF5A5F` – used for call-to-action buttons and key highlights
+- **Secondary Color**: `#008489` – used for links, active states, and secondary buttons
+- **Background Color**: `#FFFFFF` – page background and component containers
+- **Text Color**: `#222222` – main heading and paragraph text
+- **Secondary Text Color**: `#717171` – subtitles, metadata, and muted text
+
+#### 🔤 Typography
+| Type             | Font Family | Font Weight | Font Size |
+|------------------|-------------|-------------|-----------|
+| Primary Text     | Circular    | Medium (500)| 16px      |
+| Headings (H1–H3) | Circular    | Bold (700)  | 24px–32px |
+| Secondary Text   | Circular    | Book (400)  | 14px      |
+
+> Note: If the Circular font is unavailable in the implementation, system-safe or Google Fonts like **Inter**, **Poppins**, or **Nunito Sans** can be used as substitutes.
+
+### Why Identifying Design Properties Is Important
+
+Understanding and extracting design properties (like colors, typography, spacing, and components) from a Figma mockup is crucial because:
+
+- ✅ **Consistency**: Maintains visual and interaction consistency across pages and components.
+- 🎯 **Developer Alignment**: Ensures developers translate design accurately into code.
+- 📱 **Responsiveness**: Helps adapt designs for various screen sizes early in development.
+- 🧩 **Reusability**: Enables creation of reusable UI components that follow a unified style guide.
+- 📐 **Efficiency**: Reduces back-and-forth between designers and developers during implementation.
+
+By referencing Figma's styles directly, we ensure our application looks and feels like a polished product.
