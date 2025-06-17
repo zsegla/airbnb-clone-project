@@ -117,3 +117,23 @@ Understanding and extracting design properties (like colors, typography, spacing
 - 📐 **Efficiency**: Reduces back-and-forth between designers and developers during implementation.
 
 By referencing Figma's styles directly, we ensure our application looks and feels like a polished product.
+
+---
+
+## Project Roles and Responsibilities
+
+To ensure smooth collaboration and clear task ownership, the following roles are defined within the team:
+
+| Role               | Responsibilities                                                                                 |
+|--------------------|--------------------------------------------------------------------------------------------------|
+| **Project Manager** | - Oversees the overall timeline and deliverables<br>- Coordinates between teams<br>- Tracks progress and resolves roadblocks |
+| **Frontend Developers** | - Develop reusable UI components using React<br>- Implement responsive layouts and design specs<br>- Connect frontend to backend APIs |
+| **Backend Developers** | - Design and implement RESTful APIs<br>- Handle database modeling and queries<br>- Ensure secure data handling and business logic |
+| **Designers**       | - Create wireframes and high-fidelity mockups in Figma<br>- Maintain design system and style guide<br>- Ensure accessibility and visual consistency |
+| **QA/Testers**      | - Write unit, integration, and UI test cases<br>- Conduct manual and automated testing<br>- Identify, log, and verify bugs |
+| **DevOps Engineers**| - Set up CI/CD pipelines (GitHub Actions, etc.)<br>- Manage hosting and server infrastructure<br>- Handle deployment, monitoring, and scaling |
+| **Product Owner**   | - Defines and prioritizes features based on user needs<br>- Owns the product vision and roadmap<br>- Ensures alignment between stakeholders and team |
+| **Scrum Master**    | - Facilitates Agile ceremonies (daily stand-ups, sprint planning, retrospectives)<br>- Removes blockers for the team<br>- Promotes continuous improvement |
+
+> Effective role distribution ensures that every part of the project — from design to deployment — is handled efficiently and collaboratively.
+
