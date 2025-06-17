@@ -207,3 +207,136 @@ A successful software project depends on well-defined team roles. Each team memb
 
 > Clear role definitions ensure accountability, improve collaboration, and increase the project’s chances of success.
 
+---
+
+## Technology Stack
+
+This project utilizes a modern full-stack web development stack, integrating powerful tools and frameworks across the frontend, backend, and database layers.
+
+- **React**: A JavaScript library for building dynamic and component-based user interfaces.
+- **Django**: A high-level Python web framework used for building robust backend APIs and server-side logic.
+- **PostgreSQL**: A powerful open-source relational database system used for storing and managing application data.
+- **Figma**: A collaborative design tool used to plan and prototype UI/UX interfaces.
+- **Git & GitHub**: Version control and repository hosting tools used for code management, collaboration, and CI/CD automation.
+- **Docker**: Used to containerize the application for consistent development and deployment environments.
+- **GitHub Actions**: Used to automate testing, deployment, and integration processes (CI/CD).
+
+---
+
+## Database Design
+
+To support the core features of the AirBnB Clone, the following database entities are defined:
+
+### Entities and Key Fields
+
+- **User**
+  - `id`: Unique identifier
+  - `name`: Full name
+  - `email`: User email (unique)
+  - `password_hash`: Encrypted password
+  - `role`: Guest or Host
+
+- **Property**
+  - `id`: Unique property identifier
+  - `title`: Name of the property
+  - `location`: Address or coordinates
+  - `price_per_night`: Cost for one night stay
+  - `host_id`: Linked to the user who owns the listing
+
+- **Booking**
+  - `id`: Unique booking identifier
+  - `property_id`: Property being booked
+  - `user_id`: Guest making the booking
+  - `start_date` / `end_date`: Duration of the booking
+  - `total_price`: Calculated cost
+
+- **Review**
+  - `id`: Unique review identifier
+  - `user_id`: Reviewer (guest)
+  - `property_id`: Property being reviewed
+  - `rating`: Score (e.g., 1–5)
+  - `comment`: Optional written feedback
+
+- **Payment**
+  - `id`: Payment transaction ID
+  - `booking_id`: Linked to the corresponding booking
+  - `payment_status`: e.g., paid, pending
+  - `method`: Credit card, PayPal, etc.
+
+### Relationships
+
+- A **User** can be a **Guest** (who books) or a **Host** (who lists properties).
+- A **User** can make multiple **Bookings**.
+- A **Property** can have multiple **Reviews** and **Bookings**.
+- A **Booking** results in a **Payment**.
+
+---
+
+## Feature Breakdown
+
+The Airbnb Clone project includes the following core features:
+
+- **User Management**
+  - Handles user registration, login, and authentication.
+  - Enables role-based access (host vs guest) and profile updates.
+
+- **Property Management**
+  - Hosts can create, update, and delete listings.
+  - Properties include photos, descriptions, availability, and pricing.
+
+- **Search & Filtering**
+  - Users can search properties by location, price, and availability.
+  - Includes filters such as rating, amenities, and property type.
+
+- **Booking System**
+  - Allows users to select dates and book available properties.
+  - Prevents overlapping bookings and calculates total pricing.
+
+- **Payment Integration**
+  - Enables secure payment through third-party providers.
+  - Includes confirmation, refund, and transaction history.
+
+- **Reviews & Ratings**
+  - Guests can leave feedback and ratings after a stay.
+  - Helps improve trust and visibility for listings.
+
+---
+
+## API Security
+
+Ensuring security across backend APIs is vital to protect user data and maintain platform integrity. The following measures will be implemented:
+
+- **Authentication**
+  - Users must log in to access protected routes using JWT (JSON Web Tokens) or session-based authentication.
+  - Ensures that only valid users can make requests on behalf of themselves.
+
+- **Authorization**
+  - Role-based access control (RBAC) restricts actions (e.g., only hosts can add properties).
+  - Prevents unauthorized data manipulation.
+
+- **Rate Limiting**
+  - Limits the number of API requests per IP/user to mitigate DDoS attacks or abuse.
+
+- **Input Validation & Sanitization**
+  - Protects against common web attacks like SQL Injection, XSS, and CSRF.
+
+- **Secure Payments**
+  - Payment data is handled via a secure third-party provider (e.g., Stripe or PayPal).
+  - Ensures PCI compliance and encrypted communication.
+
+---
+
+## CI/CD Pipeline
+
+### What is CI/CD?
+
+CI/CD (Continuous Integration / Continuous Deployment) automates the process of integrating code, running tests, and deploying updates to production. It ensures faster development cycles and higher code quality.
+
+### Tools Used:
+
+- **GitHub Actions**: Automates testing, linting, and deployment steps whenever changes are pushed.
+- **Docker**: Ensures consistency by running the application in isolated containers.
+- **Heroku / Render / AWS**: (Optional) Platforms used for hosting the production or staging environment.
+
+> Implementing CI/CD improves reliability, minimizes human errors, and ensures that new features are deployed safely and efficiently.
+
