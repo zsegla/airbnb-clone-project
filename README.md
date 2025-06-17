@@ -6,7 +6,7 @@
 ---
 
 ## Table of Contents
-1. [Project Overview](#project-overview)  
+1. [Project Overview](##project-overview)  
 2. [Learning Objectives](#learning-objectives)  
 3. [Tech Stack](#tech-stack)  
 4. [UI/UX Design Planning](#uiux-design-planning)  
@@ -137,3 +137,29 @@ To ensure smooth collaboration and clear task ownership, the following roles are
 
 > Effective role distribution ensures that every part of the project — from design to deployment — is handled efficiently and collaboratively.
 
+---
+
+## UI Component Patterns
+
+To build a scalable and maintainable frontend, the project will use reusable UI components. These components ensure consistency and simplify development across different pages.
+
+### Planned Components
+
+- **Navbar**
+  - Includes the site logo, search bar, user navigation (login/profile), and a responsive menu for mobile devices.
+  - Ensures easy navigation across the platform.
+
+- **Property Card**
+  - Displays property image, basic details such as price, location, rating, and a favorite (bookmark) button.
+  - Designed with a responsive layout to fit different screen sizes.
+
+- **Footer**
+  - Contains site links, company information, social media icons, and copyright information.
+  - Provides consistent information and easy access to secondary navigation.
+
+Each component will be designed with reusability and accessibility in mind to maintain a consistent user experience throughout the application.
+
+---
+
+> **Next Step:** Clone the repo, create a feature branch, and start building your first component!  
+> Happy coding 🚀
