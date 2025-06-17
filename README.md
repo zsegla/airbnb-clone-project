@@ -57,95 +57,31 @@ The codebase is fully open‑source for learning and team collaboration.
 
 ---
 
-## UI/UX Design Planning
+## UI/UX Design Planning
 
-### Design Goals
-- **Intuitive booking flow** with minimal steps  
-- Consistent **visual language** across pages  
-- **Fast loading** through image optimization & code‑splitting  
-- **Mobile responsiveness** for ≤ 375 px screens  
+### Design Goals
+- **Create an intuitive booking flow** that guides users smoothly from browsing to checkout.
+- **Maintain visual consistency** throughout all pages to ensure a professional and trustworthy experience.
+- **Ensure fast loading times** by optimizing images, code, and interactions.
+- **Prioritize mobile responsiveness** so users can comfortably browse and book from any device.
 
-### Key Features
-- Property search & advanced filters  
-- Detailed property pages with photo carousel, map, and amenities  
-- Secure checkout with price breakdown and payment gateway  
-- User authentication (login / signup, profile, wish‑lists)  
+### Key Features
+- **Property search and filtering** with dynamic and responsive controls.
+- **Detailed property viewing** with images, amenities, pricing, and booking options.
+- **Secure checkout process** that captures user details, payment, and confirms bookings.
+- **User authentication** (signup, login, logout) to personalize user experience.
 
-### Primary Pages
+### Primary Pages
 
-| Page                    | Description                                                             |
-|-------------------------|-------------------------------------------------------------------------|
-| **Property Listing View** | Grid of available properties, real‑time filters (price, location, etc.) |
-| **Listing Detailed View** | Large hero images, description, amenities, calendar, and booking form  |
-| **Simple Checkout View**  | Streamlined payment, guest details, and confirmation screen            |
+| Page Name               | Description                                                                 |
+|-------------------------|-----------------------------------------------------------------------------|
+| Property Listing View   | Displays a grid of available properties with filters such as price, location, and amenities. |
+| Listing Detailed View   | Shows full property information including images, descriptions, ratings, and a booking form. |
+| Simple Checkout View    | Provides a clean interface for entering payment details and confirming the booking. |
 
-### Importance of User‑Friendly Design
-A seamless interface **reduces friction**, boosts **conversion rates**, and strengthens **brand trust**. Clear navigation, predictable interactions, and accessible color contrast are key to retaining users through the booking funnel.
-
----
-
-### Figma Design Specifications
-
-#### Color Styles
-| Name        | Hex      | Usage                       |
-|-------------|----------|-----------------------------|
-| **Primary** | `#FF5A5F` | Buttons, highlights         |
-| **Secondary** | `#008489` | Links, active states        |
-| **Background** | `#FFFFFF` | App canvas                 |
-| **Text**    | `#222222` | Headings & body copy        |
-| **Secondary Text** | `#717171` | Sub‑labels, metadata        |
-
-#### Typography
-| Style              | Font Family | Weight | Size |
-|--------------------|------------|--------|------|
-| **Headings (H1–H3)** | Circular   | 700    | 24–32 px |
-| **Body**           | Circular   | 500    | 16 px |
-| **Secondary**      | Circular   | 400    | 14 px |
-
-> Identifying colors, fonts, and component specs early ensures a **single source of truth** for designers and developers, accelerating hand‑offs and preventing style drift.
-
----
-
-## Project Roles & Responsibilities
-
-| Role                | Key Responsibilities                                                             |
-|---------------------|----------------------------------------------------------------------------------|
-| **Project Manager** | Schedule, roadmap, stakeholder communication                                     |
-| **Product Owner**   | Feature prioritization, acceptance criteria, vision                              |
-| **Scrum Master**    | Facilitate sprints, remove blockers, retrospectives                              |
-| **Frontend Developers** | Build React components, state management, responsive CSS                     |
-| **Backend Developers**  | API endpoints, business logic, DB schema, unit tests                         |
-| **Designers**       | Wireframes, high‑fidelity mocks, design system maintenance                       |
-| **QA/Testers**      | Write test suites, manual exploratory testing, bug triage                        |
-| **DevOps Engineers**| Dockerization, CI/CD pipeline, cloud infrastructure                              |
-
----
-
-## UI Component Patterns
-
-| Component   | Purpose & Notes                                                        |
-|-------------|------------------------------------------------------------------------|
-| **Navbar**  | Logo, search bar, user menu; collapses into hamburger on mobile        |
-| **Property Card** | Thumbnail, price/night, location, rating; clickable to detail page |
-| **Footer**  | About links, social icons, legal disclaimers                           |
-| **Date Picker** | Reusable calendar for check‑in/out selection                       |
-| **Rating Stars** | Visually display average reviews                                  |
-| **Image Carousel** | Swipeable gallery on listing page                               |
-
-All components follow an **atomic design** approach (atoms → molecules → organisms) to maximize reusability.
-
----
-
-## Best Practices
-1. **Code Organization** – feature‑based folders, descriptive file names.  
-2. **Version Control** – short, topic‑based branches; conventional commits.  
-3. **Responsive Design** – CSS Grid, Flexbox; use `rem` & `em` units, not pixels.  
-4. **Accessibility (a11y)** – WCAG 2.2 AA: semantic HTML, focus states, ARIA labels.  
-5. **Testing** – Jest + React Testing Library on the frontend; supertest on APIs.  
-6. **Documentation** – keep this README and `/docs` updated as the project evolves.  
-7. **Continuous Integration** – automated lint, test, and build on every PR.  
-
----
-
-> **Next Step:** Clone the repo, create a feature branch, and start building your first component!  
-> Happy coding 🚀
+### Importance of a User-Friendly Design
+A user-friendly design is essential in a booking system because it:
+- **Reduces friction** in the user journey, making it easier to complete a booking.
+- **Increases conversion rates** by guiding users with intuitive interactions and minimal distractions.
+- **Improves customer satisfaction** with a seamless, responsive, and visually appealing experience.
+- **Encourages return usage and referrals** due to a trustworthy and professional interface.
