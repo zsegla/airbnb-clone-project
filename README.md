@@ -6,18 +6,42 @@
 ---
 
 ## Table of Contents
-1. [Project Overview](##project-overview)  
-2. [Learning Objectives](#learning-objectives)  
-3. [Tech Stack](#tech-stack)  
-4. [UI/UX Design Planning](#uiux-design-planning)  
+
+1. [Project Overview](#project-overview)  
+2. [Learning Objectives](#learning-objectives)  
+3. [Tech Stack](#tech-stack)  
+4. [UI/UX Design Planning](#uiux-design-planning)  
    - [Design Goals](#design-goals)  
-   - [Key Features](#key-features)  
-   - [Primary Pages](#primary-pages)  
-   - [Importance of User‑Friendly Design](#importance-of-user-friendly-design)  
-   - [Figma Design Specifications](#figma-design-specifications)  
-5. [Project Roles & Responsibilities](#project-roles--responsibilities)  
-6. [UI Component Patterns](#ui-component-patterns)  
-7. [Best Practices](#best-practices)  
+   - [Key Features](#key-features)  
+   - [Primary Pages](#primary-pages)  
+   - [Importance of a User-Friendly Design](#importance-of-a-user-friendly-design)  
+   - [Figma Design Specifications](#figma-design-specifications)  
+     - [🎨 Color Styles](#-color-styles)  
+     - [🔤 Typography](#-typography)  
+     - [Why Identifying Design Properties Is Important](#why-identifying-design-properties-is-important)  
+5. [Project Roles and Responsibilities](#project-roles-and-responsibilities)  
+6. [UI Component Patterns](#ui-component-patterns)  
+   - [Planned Components](#planned-components)  
+7. [Team Roles](#team-roles)  
+   - [Backend Developer](#backend-developer)  
+   - [Frontend Developer](#frontend-developer)  
+   - [Database Administrator (DBA)](#database-administrator-dba)  
+   - [UI/UX Designer](#uiux-designer)  
+   - [QA Engineer / Tester](#qa-engineer--tester)  
+   - [DevOps Engineer](#devops-engineer)  
+   - [Scrum Master](#scrum-master)  
+   - [Product Owner](#product-owner)  
+8. [Technology Stack](#technology-stack)  
+9. [Database Design](#database-design)  
+   - [Entities and Key Fields](#entities-and-key-fields)  
+   - [Relationships](#relationships)  
+10. [Feature Breakdown](#feature-breakdown)  
+11. [API Security](#api-security)  
+12. [CI/CD Pipeline](#cicd-pipeline)  
+    - [What is CI/CD?](#what-is-cicd)  
+    - [Tools Used](#tools-used)
+
+---
 
 ---
 
